@@ -77,9 +77,11 @@ a:link, a:hover, a:visited {
   font-size: 12px;
   text-transform: uppercase;
   display: inline;
+   -webkit-appearance: none;
 }
 #revue-form input[type=email] {
   border: 2px solid #000000;
+   -webkit-appearance: none;
 }
 #revue-form input[type=submit] {
   border: 2px solid #000000;
@@ -87,4 +89,5 @@ a:link, a:hover, a:visited {
   color: white;
   text-decoration: none;
   cursor: pointer;
+   -webkit-appearance: none;
 }
