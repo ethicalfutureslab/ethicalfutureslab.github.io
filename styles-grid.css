@@ -21,6 +21,7 @@ h1 {
   font-size: .75em;
   text-transform: uppercase;
 }
+
 p {
   margin:25px 0px;
 }
@@ -59,6 +60,7 @@ a:link, a:hover, a:visited {
   align-items: stretch;
   align:center;
 }
+
 @media only screen and (min-width: 600px) {
   body, html {
     font-size: 1.1em;
@@ -78,10 +80,14 @@ a:link, a:hover, a:visited {
   text-transform: uppercase;
   display: inline;
    -webkit-appearance: none;
+   -moz-appearance: none;
+  appearance: none;
 }
 #revue-form input[type=email] {
   border: 2px solid #000000;
    -webkit-appearance: none;
+   -moz-appearance: none;
+  appearance: none;
 }
 #revue-form input[type=submit] {
   border: 2px solid #000000;
@@ -90,4 +96,6 @@ a:link, a:hover, a:visited {
   text-decoration: none;
   cursor: pointer;
    -webkit-appearance: none;
+   -moz-appearance: none;
+  appearance: none;
 }
