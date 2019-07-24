@@ -12,12 +12,12 @@
 }
 body, html {
 	background-color: #F7F6F4;
-	font-family: 'Untitled Sans';
+	font-family: 'Untitled Sans', sans-serif;
 	font-size: 1.1em;
 	line-height: 1.4em;
 }
 h1 {
-  font-family: 'Pitch Sans Bold';
+  font-family: 'Pitch Sans Bold', sans-serif;
   font-size: .75em;
   text-transform: uppercase;
 }
